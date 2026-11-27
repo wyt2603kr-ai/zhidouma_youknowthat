@@ -4,10 +4,10 @@ import type { KnowledgeCard } from './types';
 
 // 第一版数据只存在本机（网页存在浏览器里）。第三步接入云同步后再迁到数据库。
 const KEYS = {
-  interests: 'zhidou:interests',
-  weights: 'zhidou:weights',
-  saved: 'zhidou:saved',
-  seen: 'zhidou:seen',
+  interests: 'zhidouma:interests',
+  weights: 'zhidouma:weights',
+  saved: 'zhidouma:saved',
+  seen: 'zhidouma:seen',
 } as const;
 
 async function readJSON<T>(key: string, fallback: T): Promise<T> {

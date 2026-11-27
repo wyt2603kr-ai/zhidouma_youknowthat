@@ -19,7 +19,7 @@ export function InterestPicker({ initial, onDone }: Props) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={styles.logo}>知豆 🫘</Text>
+        <Text style={styles.logo}>知豆嘛 🫘</Text>
         <Text style={styles.title}>你对什么好奇？</Text>
         <Text style={styles.subtitle}>选几个领域，之后随时能改。不确定就多选点。</Text>
 

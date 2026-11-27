@@ -40,7 +40,7 @@ export function CustomTabList(props: TabListProps) {
   return (
     <View {...props} style={styles.container}>
       <View style={styles.inner}>
-        <Text style={styles.brand}>知豆 🫘</Text>
+        <Text style={styles.brand}>知豆嘛 🫘</Text>
         {props.children}
       </View>
     </View>

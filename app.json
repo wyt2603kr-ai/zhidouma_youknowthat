@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "知豆",
-    "slug": "zhidou",
+    "name": "知豆嘛",
+    "slug": "zhidouma",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "zhidou",
+    "scheme": "zhidouma",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"

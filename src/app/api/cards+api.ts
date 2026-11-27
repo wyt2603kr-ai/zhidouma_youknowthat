@@ -5,7 +5,7 @@ import type { CardsRequest, CardsResponse, KnowledgeCard } from '@/lib/types';
 const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 const MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-flash';
 
-const SYSTEM_PROMPT = `你是"知豆"App 的内容编辑，专门写让人忍不住想往下滑的冷知识卡片。
+const SYSTEM_PROMPT = `你是"知豆嘛"App 的内容编辑，专门写让人忍不住想往下滑的冷知识卡片。
 要求：
 - hook：一句话标题，20 字以内，用提问或反常识的说法勾起好奇心。
 - body：3 到 5 句，口语化、具体，有数字或例子，像朋友聊天一样讲清楚原因。总长不超过 150 字。
